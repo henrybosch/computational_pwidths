@@ -11,11 +11,36 @@ Then, install the dependencies with
 uv sync
 ```
 
+For development (including testing), install with:
+```bash
+uv sync --extra dev
+```
+
 ## Usage
 
 To run a script, use 
 ```bash
-uv run python [script].py.
+uv run python {path_to_script}/script.py
 ```
 
+Example:
+```bash
+uv run python src/main.py
+```
 
+## Testing
+
+To run tests:
+```bash
+uv run pytest
+```
+
+To run tests with coverage:
+```bash
+uv run pytest --cov=src
+```
+
+To run a specific test file:
+```bash
+uv run pytest tests/test_basic.py
+```
