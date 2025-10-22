@@ -2,6 +2,8 @@
 
 This is a repository for computing p-widths of Riemannian manifolds. 
 
+Do to simplicity, the first manifolds we will investigate are the Tori, i.e. quotients of R^n by lattices, and spheres S^n, for n >= 2.
+
 ## Installation
 
 We use uv for python package management. To install, first install uv [here](https://docs.astral.sh/uv/getting-started/installation).
